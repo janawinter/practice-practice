@@ -4,8 +4,10 @@
     <title>EDA Phase 1 Express Boilerplate</title>
   </head>
   <body>
-    <h1>
-      HI!
-    </h1>
+    <ul>
+      {{#each users}}
+        <li> {{name}} </li>
+      {{/each}}
+    </ul>
   </body>
 </html>
